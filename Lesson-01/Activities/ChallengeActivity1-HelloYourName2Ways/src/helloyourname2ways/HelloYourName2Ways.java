@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author mafudge
+ * @author NewsLedBans
  */
 public class HelloYourName2Ways {
 
@@ -25,6 +25,15 @@ public class HelloYourName2Ways {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+System.out.println("Enter your first name: ");
+Scanner firstName = new Scanner(System.in);
+String firstName = firstName.nextline()
+
+System.out.println("Enter your last name: ");
+Scanner lastName = new Scanner.nextline(System.in);
+
+System.out.println("Hello " + firstName + " " + lastName + "./n")
+System.out.println("Or should I say: " + lastName + ", " + firstName + "!")
 
     }
     
