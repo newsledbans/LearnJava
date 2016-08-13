@@ -30,7 +30,8 @@ Scanner firstName = new Scanner(System.in);
 String firstName = firstName.nextline()
 
 System.out.println("Enter your last name: ");
-Scanner lastName = new Scanner.nextline(System.in);
+Scanner lastName = new Scanner(System.in);
+String lastName = lastName.nextline();
 
 System.out.println("Hello " + firstName + " " + lastName + "./n")
 System.out.println("Or should I say: " + lastName + ", " + firstName + "!")
