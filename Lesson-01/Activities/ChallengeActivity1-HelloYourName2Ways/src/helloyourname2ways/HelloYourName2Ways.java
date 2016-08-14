@@ -25,16 +25,15 @@ public class HelloYourName2Ways {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-System.out.println("Enter your first name: ");
-Scanner firstName = new Scanner(System.in);
-String firstName = firstName.nextline()
+		System.out.print("Enter your first name: ");
+		Scanner userInput = new Scanner(System.in);
+		String firstName = new String(userInput.nextLine());
 
-System.out.println("Enter your last name: ");
-Scanner lastName = new Scanner(System.in);
-String lastName = lastName.nextline();
+		System.out.print("Enter your last name: ");
+		String lastName = new String(userInput.nextLine());
 
-System.out.println("Hello " + firstName + " " + lastName + "./n")
-System.out.println("Or should I say: " + lastName + ", " + firstName + "!")
+		System.out.println("\nHello " + firstName + " " + lastName + ".");
+		System.out.println("Or should I say: " + lastName + ", " + firstName + "!\n");
 
     }
     
